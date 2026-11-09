@@ -1,0 +1,3 @@
+V2 更新：复制公式为图片后，明确删除原公式范围，再在原起始位置粘贴 EMF 图片。输出新 DOCX，不覆盖原件。
+重新编译：将本文件夹的 word_formula_to_image.py、requirements.txt 上传并覆盖仓库根目录同名文件；将 .github/workflows/build.yml 覆盖仓库同路径文件。然后在 GitHub Actions 运行 Build Windows EXE V2，下载 Artifacts 中的 Word公式图片转换助手-V2-Windows。
+要求 Windows + 桌面版 Microsoft Word。针对 Word 原生公式 OMath；普通文本公式不自动识别。请先用副本测试，复杂公式和不同 Word 版本仍需实际验证。
